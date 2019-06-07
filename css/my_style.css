@@ -1,0 +1,232 @@
+body{
+    background-image: url('../img/Capture d’écran de 2019-06-06 12-19-21.png');
+    background-size:  100% 100%;
+    background-attachment: fixed;
+}
+.user_profile{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.user_profile > .basic_info{
+    background-color: #3b60a7;
+    padding-top: 25px
+}
+.user_profile > .basic_info .user_image{
+    background-color: #537ccb;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 18px
+}
+.user_profile > .basic_info .user_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.user_profile > .basic_info .user_name{
+    text-align: center;
+    font-size: 28px;
+    font-family: raleway;
+    color: #6186cd;
+    margin-bottom: 15px
+}
+.user_profile > .basic_info ul{
+    padding: 0px;
+    list-style: none;
+    color: #6186cd;
+    font-family: raleway;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center
+}
+.user_profile > .basic_info ul li img{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px
+}
+.user_profile > .basic_info hr{
+    background-color: #6186cd;
+    height: 2px
+}
+.user_profile > .basic_info p{
+    color: #6186cd;
+    font-family: raleway;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+.user_profile > .basic_info .social_media{
+    text-align: center;
+}
+.user_profile > .basic_info .social_media .label{
+    color: #6186cd;
+    font-family: raleway;
+    font-weight: bold
+}
+.user_profile > .basic_info .social_media > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.user_profile > .basic_info .social_media > div div{
+    width: 45px;
+    height: 45px;
+    border: white 2px solid;
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block
+}
+.user_profile > .basic_info .social_media > div div img{
+    width: 100%;
+    height: 100%;
+}
+.user_profile .user_profile_body > header .item{
+    width: 80px;
+    height: 70px;
+    background-color: #3b60a7;
+    padding-top: 10px;
+    cursor: pointer
+}
+.user_profile .user_profile_body > header .item + .item{
+    border-left: #6186cd 1px solid
+}
+.user_profile .user_profile_body > header .item > div{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 12px;
+    margin: auto
+}
+.user_profile .user_profile_body > header .item_hover{
+    background-color: white;
+}
+.user_profile .user_profile_body > header .item_hover > div{
+    background-color: #3b60a7
+}
+.user_profile .user_profile_body > header .item > div img{
+    width: 100%;
+    height: 100%;
+}
+.user_profile .user_profile_body > header .item_black{
+    background-color: #2f4048
+}
+.user_profile .user_profile_body > header .item_black + .item_black{
+    border-left: white 1px solid
+}
+.user_profile .user_profile_body > header .item_black > div{
+    background-color: transparent
+}
+.user_profile .user_profile_body .user_info_item{
+    background-color: white;
+    margin-top: 20px;
+}
+.user_profile .user_profile_body .user_info_item .user_info_item_label{
+    color: #70797e;
+    font-family: raleway;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.user_profile .user_profile_body .profile_info_item table .icon{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px
+}
+.user_profile .user_profile_body .profile_info_item table .label{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 15px;
+    color: #818588
+}
+.user_profile .user_profile_body .profile_info_item table tr{
+    height: 40px
+}
+.user_profile .user_profile_body .profile_info_item table .content{
+    color: #818588;
+    font-size: 19px;
+    display: block;
+    padding-left: 15px
+}
+.user_profile .user_profile_body .profile_info_item table{
+    margin-bottom: 20px
+}
+.user_profile .user_profile_body .profile_info_item p{
+    font-family: raleway;
+    font-weight: bold;
+    color: #818588
+}
+.user_profile .user_profile_body .profile_info_item p img{
+    float: left;
+    width: 25px;
+    height: 25px
+}
+.user_profile .user_profile_body .image_grand_plant{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+.user_profile .user_profile_body > header .mobile_nav{
+    display: none;
+}
+.user_profile .user_profile_body > header .mobile_nav img{
+    float: left;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.user_profile .user_profile_body > .header_from_mobile{
+    display: none;
+    text-align: center;
+    height: 60px;
+    background-color: #2f4048;    
+}
+.user_profile .user_profile_body > .header_from_mobile em{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 18px
+}
+.user_profile .user_profile_body > .header_from_mobile img{
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px
+}
+#effect_div{
+     background-color: rgba(45,45,45,.55);
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 4000;
+     display: none
+}
+@media(min-width: 900px){
+    .user_profile .user_profile_body .user_info_item{
+        height: 450px;
+        overflow-x: hidden;
+        overflow-y: scroll
+    }
+}
+@media(max-width: 900px){
+    .user_profile .user_profile_body > header{
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 5000;
+        width: 80px;
+        display: none
+    }
+    .user_profile .user_profile_body > .header_from_mobile{
+        display: block
+    }
+}
